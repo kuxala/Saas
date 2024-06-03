@@ -4,7 +4,7 @@ const Wrapper = styled.header`
     background: #EAEEFE;
     backdrop-filter: blur(7px);
     padding: 20px;
-    
+    min-height: 8.5vh;
 
     .container{
         display: flex;

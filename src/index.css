@@ -1,10 +1,41 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "DM Sans";
 }
+body{
+  overflow-x: hidden;
+}
+.black-button {
+  display: flex;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
 
-
-
-
+  /* Body Bold */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  cursor: pointer;
+}
+.transparent-btn{
+  color: #000;
+  background-color: transparent;
+  border: none;
+  /* Body Bold */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  cursor: pointer;
+}
