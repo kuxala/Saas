@@ -93,7 +93,6 @@ const Wrapper = styled.section`
         @media (max-width: 768px){
             margin-top: 100px;
             position: initial;
-           
             .center-image{
                 width: 400px;
             }
