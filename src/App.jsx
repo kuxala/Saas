@@ -1,3 +1,4 @@
+import FourthSection from "./components/FourthSection";
 import Header from "./components/Header";
 import MainSection from "./components/MainSection";
 import Partnets from "./components/Partnets";
@@ -12,6 +13,7 @@ function App() {
       {/* <Partnets /> */}
       <SecondSection />
       <ThirdSection />
+      <FourthSection />
     </>
   );
 }
