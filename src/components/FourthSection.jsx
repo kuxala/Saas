@@ -7,7 +7,7 @@ export default function FourthSection() {
     <Wrapper>
       <div className="container">
         <div>
-          <span>Boost your productivity</span>
+          <span className="sp">Boost your productivity</span>
           <h2>
             A more effective way <br /> to track progress
           </h2>
