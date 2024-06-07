@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import FourthSection from "./components/FourthSection";
 import Header from "./components/Header";
 import MainSection from "./components/MainSection";
@@ -14,6 +15,7 @@ function App() {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <Footer />
     </>
   );
 }

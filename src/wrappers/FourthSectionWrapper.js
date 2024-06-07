@@ -1,11 +1,19 @@
 import styled from "styled-components";
 
 const Wrapper = styled.section`
+@media (max-width: 768px){
+        margin-top: 1000px
+    }
   min-height: 100vh;
   .pricing {
     display: flex;
     justify-content: center;
     gap: 50px;
+    @media (max-width: 768px){
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
   .sp {
     display: flex;
